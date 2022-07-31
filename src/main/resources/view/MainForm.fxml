@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="664.0" style="-fx-background-color: #191945;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainFormController">
+   <children>
+      <AnchorPane fx:id="pneMainForm" layoutX="120.0" prefHeight="400.0" prefWidth="544.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Label fx:id="lblHome" layoutX="40.0" layoutY="95.0" onMouseClicked="#lblHomeOnMouseClicked" text="HOME" textFill="WHITE">
+         <font>
+            <Font name="Montserrat SemiBold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblLogout" layoutX="33.0" layoutY="344.0" onMouseClicked="#lblLogoutOnMouseClicked" text="LOGOUT" textFill="WHITE">
+         <font>
+            <Font name="Montserrat SemiBold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBooks" layoutX="37.0" layoutY="130.0" onMouseClicked="#lblBooksOnMouseClicked" text="BOOKS" textFill="WHITE">
+         <font>
+            <Font name="Montserrat SemiBold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblMembers" layoutX="27.0" layoutY="163.0" onMouseClicked="#lblMembersOnMouseClicked" text="MEMBERS" textFill="WHITE">
+         <font>
+            <Font name="Montserrat SemiBold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

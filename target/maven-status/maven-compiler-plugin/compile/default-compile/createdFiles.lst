@@ -1,0 +1,13 @@
+controller/ManageBooksFormController.class
+controller/MainFormController.class
+controller/AddNewBookFormController.class
+controller/HomeFormController.class
+db/Book.class
+util/Route.class
+controller/LoginFormController.class
+db/InMemoryDB.class
+controller/ManageMembersFormController.class
+controller/EditBookDetailsFormController.class
+AppInitializer.class
+util/Navigation.class
+util/Navigation$1.class

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="544.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EditBookDetailsFormController">
+   <children>
+      <Label alignment="CENTER" layoutX="182.0" layoutY="42.0" text="EDIT BOOK DETAILS" textFill="#191945" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="35.0">
+         <font>
+            <Font name="Montserrat ExtraBold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
